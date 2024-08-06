@@ -97,12 +97,10 @@
 	#menu input:checked ~ ul {display:block}
 }
 .botao{
-    
     position: absolute;
-    
-    top: 0.5px;
-    left: 1500px;
-    right: 50px;
-    width: 40px;
+    top: 1px;
+
+    right: 300px;
+    width: 100px;
     height: 12px;
     }
