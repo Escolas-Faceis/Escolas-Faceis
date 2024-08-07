@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+	font-family: "Poppins";
 }
 #menu {
 	background: #141C44;
@@ -23,11 +24,12 @@
 }
 #menu a {
 	display: block;
-	line-height: 118px;
+	line-height: 80px;
 	padding: 0 40px;
 	text-decoration: none;
 	color: #FFFFFF;
 	font-size: 20px;
+	margin-top: 18px;
 }
 #menu a.dropdown-arrow:after {
 	content: "\23F7";
@@ -63,13 +65,13 @@
 	height: auto;
 	overflow: hidden;
 	width: 300px;
-	background: #141C44;
+	background: #636570;
 	position: absolute;
 	z-index: 99;
 	display: none;
 }
 #menu ul.sub-menus li {
-	display: block;
+	display: flex;
 	text-align: left;
 	width: 100%;
 }
@@ -81,7 +83,7 @@
 	display: block
 }
 #menu ul.sub-menus a:hover{
-	background: #141C44;
+	background: #636570;
 	color: #AAFFFF;
 }
 @media screen and (max-width: 800px){
@@ -98,9 +100,9 @@
 }
 .botao{
     position: absolute;
-    top: 1px;
-
+	margin: 30;
     right: 300px;
-    width: 100px;
+    width: 150px;
     height: 12px;
+	
     }
