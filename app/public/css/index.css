@@ -43,15 +43,28 @@
     border-color: white;
     background-color: #0a7777;
     border-style: solid;
-    
+ 
 
 } 
+
+::-webkit-input-placeholder {
+    color:white;
+}
+
+/* #caixa1 ::placeholder{
+    color:white;
+
+} */
+
+.imagem-caixa{
+    margin-left: auto;
+}
 
 #caixa2{
     position: absolute;
     top:1050px;
     left: 49%;
-    padding: 10px;
+    padding: 9.5px;
     width: 89px;
     background-color: #0a7777;
     color: white;
